@@ -1,0 +1,147 @@
+body {
+    
+    background-image: url(/img/pexels-pixabay-56866.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+header{
+    background-color: black;
+
+}
+header nav {
+    float: right;
+    margin-top: 25px;
+
+}
+header nav a{
+    color: aliceblue;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+}
+#img1{
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.txtgrp{
+    color: beige;
+    margin-top: 6%;
+    margin-left: 3%;
+    width: 50%;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.login-section {
+    width: 50%;
+    
+}
+
+.login-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    color: black;
+    position: absolute;
+    top: 100px;
+    right: 60px;
+
+}
+
+.login-box h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.login-box label {  
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.login-box input {
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 10px;
+    border: 1px solid #007BFF;
+    border-radius: 1px;
+}
+
+.login-box button {
+    width: 50%;
+    padding: 5px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.login-box button{
+    background-color: #0d1b2a;
+    
+
+}
+
+.login-box p {
+    text-align: start;
+    margin-top: 10px;
+}
+
+.login-box a {
+    color: #007BFF;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.login-box a{
+    text-decoration: underline;
+}
+
+.info-section {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.info-box {
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 1px;
+    width: 30%;
+    color: black;
+    
+    
+}
+
+.info-box h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.info-box a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.info-box a{
+    text-decoration: underline;
+}
+.flex {
+    display: flex;
+}
